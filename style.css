@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ecf3;
+  min-height: 100vh;
+  font-family: 'roboto', sans-serif;
+}
+header {
+  height: 125px;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 260px;
+}
+.input_right {
+  display: flex;
+}
+.input_conten_1,
+.input_conten_2,
+.input_conten_3 {
+  margin: 15px;
+}
+.input_right label {
+  font-size: 20px;
+  color: #fff;
+}
+.input_right input {
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  outline: none;
+}
+.input_right a {
+  font-size: 17px;
+  color: #8fb4d8;
+  text-decoration: none;
+}
+.input_right .button_conten_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_right .button_conten_3 button {
+  background-color: #4267b2;
+  font-size: 18px;
+  width: 75px;
+  height: 35px;
+  border: 1px solid #29487d;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.input_right .button_conten_3 button:hover {
+  background-color: #2f497e;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.conteiner {
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+.left_arae h3 {
+  font-size: 30px;
+  width: 650px;
+  margin: 75px 0 15px 0;
+  color: #0e385f;
+  line-height: 150%;
+}
+.left_arae img {
+  width: 800px;
+}
+.Right_arae {
+  width: 600px;
+}
+.Right_arae h1 {
+  font-size: 45px;
+  margin: 45px 0 10px 0;
+}
+.Right_arae p {
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+}
+.input_arae {
+  width: 600px;
+}
+.input_arae input {
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #bdc7d8;
+  font-size: 20px;
+}
+.input_arae .input_1,
+.input_2 {
+  width: 292px;
+  margin: 10px 5px 10px 0;
+}
+.input_arae .input_3,
+.input_4 {
+  width: 594px;
+  margin: 0 0 10px 0;
+}
+.Birthday {
+  font-size: 25px;
+  font-weight: 700;
+  color: #90949c;
+}
+.content {
+  margin: 10px 0 10px 0;
+}
+.year,
+.days,
+.month {
+  border: 2px solid #ccd0d5;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+.days {
+  width: 80px;
+  height: 42px;
+}
+.month {
+  width: 105px;
+  height: 42px;
+}
+.year {
+  width: 95px;
+  height: 42px;
+}
+.content i {
+  font-size: 24px;
+  color: #606770;
+  padding-left: 10px;
+}
+.Gender_1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #90949c;
+}
+.Gender {
+  margin: 10px;
+}
+.Gender label {
+  font-size: 25px;
+  padding: 20px 40px 10px 0;
+}
+.Gender input {
+  width: 20px;
+  height: 20px;
+}
+.Gender i {
+  font-size: 24px;
+  color: #606770;
+}
+.pragrep {
+  width: 450px;
+  margin-top: 30px;
+}
+.pragrep p {
+  font-size: 18px;
+  color: #887777;
+  text-align: justify;
+  line-height: 150%;
+}
+.pragrep a {
+  text-decoration: none;
+  color: #385898;
+}
+.button {
+  margin: 30px 0 30px 0;
+}
+.button button {
+  width: 290px;
+  height: 60px;
+  background-color: #5f9a4b;
+  border: 2px solid #3b6e22;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button button:hover {
+  background-color: #76cc63;
+  border: 2px solid #76cc63;
+  color: #828588;
+}
